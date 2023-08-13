@@ -7,14 +7,17 @@ This project aims to compare the performance of Reed-Solomon encoding and Cauchy
 ### Experiment 1: Increasing Data Block Size
 
 In this experiment, the effect of increasing the data block size on the encoding performance was examined. The initial performance shows an increase, followed by stabilization. The optimal block size for Cauchy RS was found to be 7500 KB (8000 Mbps), while for RS, it was 5000 KB (7000 Mbps).
+![Increasing Data Block Size](readmeResources/experiement1.png)
 
 ### Experiment 2: Increasing Parity Blocks
 
 The second experiment involved increasing the number of parity blocks and analyzing its impact on performance. It was observed that performance decreases with the increase in parity blocks. Moreover, the performance of Cauchy RS was found to be superior to Reed-Solomon.
+![Increasing Parity Blocks](readmeResources/experiement2.png)
 
 ### Experiment 3: Decoding Speed Comparison
 
 This experiment focused on comparing the decoding speeds of Cauchy RS and Reed-Solomon. Cauchy RS demonstrated better decoding speed than Reed-Solomon.
+![Decoding speed comparison](readmeResources/experiement3.png)
 
 ## Observations
 
@@ -22,6 +25,7 @@ This experiment focused on comparing the decoding speeds of Cauchy RS and Reed-S
 - Larger block sizes can enhance encoding speeds.
 - An increase in parity blocks can lead to a decrease in encoding speeds.
 - Notable performance drops were observed, which can be attributed to collisions in L1-Cache.
+  ![Observations](readmeResources/observations.png)
 
 ## Conclusion
 
